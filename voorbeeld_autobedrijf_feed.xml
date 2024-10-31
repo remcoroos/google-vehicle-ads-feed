@@ -37,6 +37,9 @@
         <!-- g:link: Verplicht voor online aanbiedingen. Dit geeft de URL naar de specifieke voertuigbeschrijvingspagina op uw website -->
         <g:link>https://www.voorbeeldautobedrijf.nl/voertuigen/volkswagen/golf/12345678</g:link>
 
+        <!-- g:link_template: Verplicht. De uiteindelijke URL wordt gegenereerd door "?store={store_code}" toe te voegen aan de g:link om de juiste store code op te nemen. -->
+        <g:link_template>https://www.voorbeeldautobedrijf.nl/voertuigen/volkswagen/golf/12345678?store={store_code}</g:link_template>
+
         <!-- g:google_product_category: Verplicht, de waarde kan worden vastgezet op 916 aangezien dit een breed scala aan voertuigtypen dekt -->
         <g:google_product_category>916</g:google_product_category>
 
