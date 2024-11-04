@@ -24,11 +24,11 @@
         <!-- g:title: Optioneel -->
         <g:title>Volkswagen Golf 1.4 TSI Comfortline</g:title>
 
-        <!-- g:price: Verplicht, formaat: nummer.valuta (bijv. 20000.00 EUR) zonder duizendtallenscheiding, prijs moet overeenkomen met prijs op de VDP -->
-        <g:price>20000.00 EUR</g:price>
+        <!-- g:price: Verplicht, formaat: getal.valuta (bijv. 40000.00 EUR) volgens ISO 4217-norm -->
+        <g:price>40000.00 EUR</g:price>
 
-        <!-- g:condition: Verplicht, waarden kunnen "new" of "used" zijn -->
-        <g:condition>used</g:condition>
+        <!-- g:condition: Verplicht, waarden kunnen "New" of "Used" zijn -->
+        <g:condition>Used</g:condition>
 
         <!-- g:image_link: Verplicht, geen watermerken, geen overliggende logo's of tekst, geen plaatsaanduidingen, geen aanstootgevend materiaal, volledig productzicht, minimale achtergrondverstoring. 
              Aanbevolen: Gebruik een afbeelding met standaard vooraanzicht (linksvoor) van het voertuig voor de beste visuele presentatie. -->
@@ -49,7 +49,7 @@
         <!-- g:model: Verplicht -->
         <g:model>Golf</g:model>
 
-        <!-- g:trim: Verplicht, betreft de uitvoering van het voertuig, bijvoorbeeld Comfortline, Highline, GTI -->
+        <!-- g:trim: Optioneel, betreft de uitvoering van het voertuig, bijvoorbeeld Comfortline, Highline, GTI -->
         <g:trim>Comfortline</g:trim>
 
         <!-- g:color: Verplicht -->
@@ -58,7 +58,7 @@
         <!-- g:mileage: Verplicht, getal gevolgd door een spatie en "km", zonder duizendtallenscheiding -->
         <g:mileage>30000 km</g:mileage>
 
-        <!-- g:date_first_registered: Verplicht, in YYYY-MM formaat -->
+        <!-- g:date_first_registered: Verplicht voor gebruikte voertuigen ("Used"), in YYYY-MM formaat -->
         <g:date_first_registered>2021-06</g:date_first_registered>
 
         <!-- g:vehicle_fulfillment: Verplicht. Het voertuig is alleen beschikbaar in een enkele winkel. -->
@@ -66,49 +66,6 @@
             <g:option>in_store</g:option>
             <g:store_code>987654321</g:store_code>
         </g:vehicle_fulfillment>
-
-        <!-- Aangepaste labels voor campagne-optimalisatie -->
-        <!-- Deze labels zijn optioneel en worden gebruikt om groepen voertuigen te onderscheiden en optimaliseren binnen campagnes. De gegeven waarden dienen ter illustratie en kunnen vrij worden aangepast op basis van de behoefte. Als een bepaalde waarde niet aanwezig is, wordt het aanbevolen om "N/A" als waarde mee te geven om te voorkomen dat voertuigen worden uitgesloten uit campagnes. -->
-        <g:custom_label_0>prijsklasse:laag</g:custom_label_0> <!-- Prijsklasse: laag (Bijvoorbeeld voor voertuigen onder €5.000) -->
-        <g:custom_label_1>brandstof:benzine</g:custom_label_1> <!-- Brandstof: benzine -->
-        <g:custom_label_2>carrosserie:hatchback</g:custom_label_2> <!-- Carrosserie: hatchback -->
-        <g:custom_label_3>statijd:lang</g:custom_label_3> <!-- Statijd: lang (bijvoorbeeld langer dan 90 dagen in voorraad) -->
-        <g:custom_label_4>verkoopgebied:primair</g:custom_label_4> <!-- Verkoopgebied: primair (bijvoorbeeld de stad of buurt van de vestiging) -->
-    
-        <!-- 
-        Mogelijke waarden voor de aangepaste labels: vrij in te vullen afhankelijk van de behoefte of aanpak:
-        - **Prijsklasse (custom_label_0):**
-           - prijsklasse:laag: Voertuigen onder €5.000.
-           - prijsklasse:midden: Voertuigen tussen €5.000 en €10.000.
-           - prijsklasse:hoger midden: Voertuigen tussen €10.000 en €20.000.
-           - prijsklasse:hoog: Voertuigen boven €20.000.
-
-        - **Brandstof (custom_label_1):**
-           - brandstof:benzine
-           - brandstof:diesel
-           - brandstof:elektrisch
-           - brandstof:hybride
-
-        - **Carrosserie (custom_label_2):**
-           - carrosserie:hatchback
-           - carrosserie:sedan
-           - carrosserie:SUV
-           - carrosserie:stationwagen
-           - carrosserie:crossover
-
-        - **Statijd (custom_label_3):**
-           - statijd:kort: Voertuigen die minder dan 30 dagen in voorraad zijn.
-           - statijd:gemiddeld: Voertuigen die tussen 30 en 90 dagen in voorraad zijn.
-           - statijd:lang: Voertuigen langer dan 90 dagen in voorraad.
-           - statijd:zeer lang: Voertuigen langer dan 180 dagen in voorraad.
-
-        - **Verkoopgebied (custom_label_4):**
-           - verkoopgebied:primair: De stad of buurt van de vestiging.
-           - verkoopgebied:straal_50km: Verkoopgebied binnen 50 km van de vestiging.
-           - verkoopgebied:straal_100km: Verkoopgebied binnen 100 km van de vestiging.
-           - verkoopgebied:regionaal: Voor bredere regionale advertenties, zoals een provincie.
-           - verkoopgebied:landelijk: Voor landelijke advertenties, gericht op een groter gebied.
-        -->
     </item>
 
     <!-- Voeg meer <item> elementen toe voor extra voertuigen -->
