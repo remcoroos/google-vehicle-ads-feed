@@ -93,4 +93,36 @@
 
         - **Carrosserie (custom_label_2):**
            - carrosserie:hatchback
-      
+           - carrosserie:sedan
+           - carrosserie:SUV
+           - carrosserie:stationwagen
+           - carrosserie:crossover
+
+        - **Statijd (custom_label_3):**
+           - statijd:kort: Voertuigen die minder dan 30 dagen in voorraad zijn.
+           - statijd:gemiddeld: Voertuigen die tussen 30 en 90 dagen in voorraad zijn.
+           - statijd:lang: Voertuigen langer dan 90 dagen in voorraad.
+           - statijd:zeer lang: Voertuigen langer dan 180 dagen in voorraad.
+
+        - **Verkoopgebied (custom_label_4):**
+           - verkoopgebied:primair: De stad of buurt van de vestiging.
+           - verkoopgebied:straal_50km: Verkoopgebied binnen 50 km van de vestiging.
+           - verkoopgebied:straal_100km: Verkoopgebied binnen 100 km van de vestiging.
+           - verkoopgebied:regionaal: Voor bredere regionale advertenties, zoals een provincie.
+           - verkoopgebied:landelijk: Voor landelijke advertenties, gericht op een groter gebied.
+        -->
+    </item>
+
+    <!-- Voeg meer <item> elementen toe voor extra voertuigen -->
+    
+  </channel>
+</rss>
+
+<!-- 
+Deze informatie is afkomstig van InfoTrade: 
+Digitale strategie en implementatie voor ambitieuze autobedrijven.
+
+InfoTrade is het enige in advertising gespecialiseerde online marketingbureau dat zich volledig heeft toegelegd op de automotive sector.
+
+Disclaimer: Hoewel deze informatie zorgvuldig is samengesteld, kunnen er geen rechten aan worden ontleend. InfoTrade is niet aansprakelijk voor eventuele fouten of onjuistheden die voortvloeien uit het gebruik van deze informatie.
+-->
