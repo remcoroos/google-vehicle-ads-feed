@@ -65,9 +65,11 @@
         <g:date_first_registered>2021-06</g:date_first_registered>
 
         <!-- g:vehicle_fulfillment: Verplicht. De waarde moet overeenkomen met de winkelcode die je kunt terugvinden in Google Bedrijfsprofiel. Als dezelfde auto in meerdere vestigingen staat, gebruik dan meerdere winkelcodes voor één item. -->
-        <g:vehicle_fulfillment>in_store</g:vehicle_fulfillment>
-        <g:store_code>11279812714946237556</g:store_code>
-        <g:store_code>11279812714946237557</g:store_code> <!-- Voorbeeld van een tweede winkelcode -->
+        <g:vehicle_fulfillment>
+          <g:option>in_store</g:option>
+          <g:store_code>11279812714946237556</g:store_code>
+          <g:store_code>11279812714946237557</g:store_code> <!-- Voorbeeld van een tweede winkelcode -->
+        </g:vehicle_fulfillment>
 
         <!-- Aangepaste labels voor campagne-optimalisatie -->
         <!-- Deze labels zijn optioneel en worden gebruikt om groepen voertuigen te onderscheiden en optimaliseren binnen campagnes. De gegeven waarden dienen ter illustratie en kunnen vrij worden aangepast op basis van de behoefte. Als een bepaalde waarde niet aanwezig is, wordt het aanbevolen om "N/A" als waarde mee te geven om te voorkomen dat voertuigen worden uitgesloten uit campagnes. -->
